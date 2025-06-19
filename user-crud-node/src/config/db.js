@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); // <- Importa mongoose, una librería ODM (Object Data Modeling) para trabajar con MongoDB de forma orientada a objetos.
 
 const connectDB = async () => {
   try {
